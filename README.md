@@ -1,3 +1,25 @@
+# LabSCim
+
+This is a phy simulator to be plugged in the major IoT platforms. 
+
+For now we are planning to provide drivers for:
+
+TSCH, CSMA:
+
+* Contiki-ng - https://github.com/contiki-ng
+* 6lbr (we hope that both can compile with the same drivers) - https://github.com/cetic/6lbr/wiki
+
+LoRa:
+
+* LoraMac - https://github.com/Lora-net/LoRaMac-node
+* Lora Packet forwader (we hope that the upper layers may execute without modification) - https://github.com/Lora-net/packet_forwarder
+
+Bluetooth:
+
+* Zephyr-os - https://github.com/zephyrproject-rtos/zephyr
+
+The starting point is omnet-tsch, whose disclamer is below:
+
 # TSCH
 
 OMNeT++ simulation model for IEEE 802.15.4e Time Slotted Channel Hopping (TSCH)
